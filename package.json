@@ -7,7 +7,7 @@
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
     "build:dev": "node esbuild.dev.js",
     "start": "node esbuild.dev.js -w",
-    "open": "open public/index.html"
+    "open": "start public/index.html"
   },
   "repository": {
     "type": "git",
